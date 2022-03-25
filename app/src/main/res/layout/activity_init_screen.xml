@@ -48,7 +48,7 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/Splash_Note2"
         android:fontFamily="sans-serif-black"
-        android:text="Aplicativo Desenvolvido pelo Grupo: Firmino Veras, Pedro José, Ivanice Fragoso e Pedro Afonso."
+        android:text="@string/info"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="12sp"
@@ -60,7 +60,6 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:fontFamily="sans-serif"
-        android:text="Versão 0.5.1 - Toque Aqui para Saber Mais"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="12sp" />

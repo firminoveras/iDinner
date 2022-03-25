@@ -1,4 +1,4 @@
-package edu.fppi.idinner;
+package edu.fppi.idinner.steps.paymentinfo;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -13,6 +13,8 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import java.text.DecimalFormat;
+
+import edu.fppi.idinner.R;
 
 public class FragPaymentInfo extends Fragment {
     private static double mPrice = 0;

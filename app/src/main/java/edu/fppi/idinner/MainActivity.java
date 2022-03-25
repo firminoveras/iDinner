@@ -9,7 +9,9 @@ import android.view.View;
 
 import com.tbuonomo.viewpagerdotsindicator.DotsIndicator;
 
+import edu.fppi.idinner.steps.confirminfo.ConfirmInfo;
 import edu.fppi.idinner.steps.entregainfo.FragDeliveryInfo;
+import edu.fppi.idinner.steps.paymentinfo.FragPaymentInfo;
 import edu.fppi.idinner.steps.pedidoinfo.FragPedidoInfo;
 import edu.fppi.idinner.steps.userinfo.FragUserInfo;
 import edu.fppi.idinner.steps.pedidoinfo.ViewPagerAdapter;
@@ -17,7 +19,6 @@ import edu.fppi.idinner.steps.pedidoinfo.ViewPagerAdapter;
 public class MainActivity extends AppCompatActivity {
 
     private ViewPager2 viewPager;
-    private double mPrice = 0;
     private boolean viewPagerBackEnable = true;
 
     @Override

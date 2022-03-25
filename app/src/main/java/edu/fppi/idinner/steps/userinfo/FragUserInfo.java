@@ -18,12 +18,10 @@ import androidx.fragment.app.Fragment;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Locale;
-import java.util.Objects;
 
 import edu.fppi.idinner.R;
 
 public class FragUserInfo extends Fragment {
-    private Context mContext;
     private EditText mName;
     private CalendarView mCalendar;
     private EditText mBirthDate;

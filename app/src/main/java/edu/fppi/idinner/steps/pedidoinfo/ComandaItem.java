@@ -18,7 +18,7 @@ import edu.fppi.idinner.R;
 
 public class ComandaItem extends LinearLayout {
 
-    private Context mContext;
+    private final Context mContext;
     private TextView mTitle, mCountText, mTotalPrice, mUnityPrice;
     private int mCount = 1;
     private double mPrice;

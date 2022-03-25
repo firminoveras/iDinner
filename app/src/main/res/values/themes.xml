@@ -1,4 +1,4 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <style name="Theme.IDinner" parent="Theme.AppCompat.DayNight.NoActionBar">
         <item name="colorPrimary">@color/bg_orange</item>
         <item name="colorPrimaryDark">@color/bg_brawn</item>

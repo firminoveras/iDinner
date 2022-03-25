@@ -135,10 +135,10 @@ public class FragPedidoInfo extends Fragment {
                 break;
             case 4:
                 mList.addView(new CardapioItem(mContext, "Big Tudo", "Um blend de carne com chedah e molho especial.", 10.00, R.mipmap.h1));
-                mList.addView(new CardapioItem(mContext, "BBQ", "Um blend de carne com chedah e molho barbecue", 12.99, R.mipmap.h1));
-                mList.addView(new CardapioItem(mContext, "Nordestino", "Dois blends de carne, salada, maionese artesanal.", 15.50, R.mipmap.h1));
-                mList.addView(new CardapioItem(mContext, "Imperador", "Três blends de carne com chedah.", 18.50, R.mipmap.h1));
-                mList.addView(new CardapioItem(mContext, "X-Men", "Três blends de carne com chedah, molho especial, extra de bacon.", 20.99, R.mipmap.h1));
+                mList.addView(new CardapioItem(mContext, "BBQ", "Um blend de carne com chedah e molho barbecue", 12.99, R.mipmap.h2));
+                mList.addView(new CardapioItem(mContext, "Nordestino", "Dois blends de carne, salada, maionese artesanal.", 15.50, R.mipmap.h3));
+                mList.addView(new CardapioItem(mContext, "Imperador", "Três blends de carne com chedah.", 18.50, R.mipmap.h4));
+                mList.addView(new CardapioItem(mContext, "X-Men", "Três blends de carne com chedah, molho especial, extra de bacon.", 20.99, R.mipmap.h5));
                 break;
         }
 
