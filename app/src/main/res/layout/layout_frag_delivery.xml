@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:ignore="ContentDescription">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_viewpager"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="4dp"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/informa_es_da_entrega"
+            android:textAlignment="center"
+            android:textColor="@color/bg_orange"
+            android:textSize="24sp"
+            app:drawableTopCompat="@drawable/ic_delivery" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="32dp"
+            android:background="@color/bg_orange" />
+
+        <RadioGroup
+            android:id="@+id/Frag_Delivery_Check_Group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/Frag_Delivery_Check_Local"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/retirar_no_local"
+                android:textColor="@color/bg_orange"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <RadioButton
+                android:id="@+id/Frag_Delivery_Check_Delivey"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/entregar_no_meu_local"
+                android:textColor="@color/bg_orange"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+        </RadioGroup>
+
+
+        <LinearLayout
+            android:id="@+id/Frag_Delivery_Layout_Endereco"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/Frag_Delivery_Endereco_Rua"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginBottom="8dp"
+                android:autofillHints="true"
+                android:backgroundTint="@color/bg_orange"
+                android:drawableStart="@drawable/ic_name"
+                android:drawablePadding="12dp"
+                android:fontFamily="sans-serif-light"
+                android:hint="@string/logradouro"
+                android:inputType="textPersonName"
+                android:lines="1"
+                android:maxLength="32"
+                android:textColor="@color/bg_orange"
+                android:textColorHint="#8F8F8F"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/Frag_Delivery_Endereco_Numero"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginBottom="8dp"
+                android:autofillHints="true"
+                android:backgroundTint="@color/bg_orange"
+                android:drawableStart="@drawable/ic_name"
+                android:drawablePadding="12dp"
+                android:fontFamily="sans-serif-light"
+                android:hint="@string/n_mero"
+                android:inputType="textPersonName"
+                android:lines="1"
+                android:maxLength="32"
+                android:textColor="@color/bg_orange"
+                android:textColorHint="#8F8F8F"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/Frag_Delivery_Endereco_Bairro"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginBottom="8dp"
+                android:autofillHints="true"
+                android:backgroundTint="@color/bg_orange"
+                android:drawableStart="@drawable/ic_name"
+                android:drawablePadding="12dp"
+                android:fontFamily="sans-serif-light"
+                android:hint="@string/bairro"
+                android:inputType="textPersonName"
+                android:lines="1"
+                android:maxLength="32"
+                android:textColor="@color/bg_orange"
+                android:textColorHint="#8F8F8F"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/Frag_Delivery_Endereco_CEP"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginBottom="8dp"
+                android:autofillHints="true"
+                android:backgroundTint="@color/bg_orange"
+                android:drawableStart="@drawable/ic_name"
+                android:drawablePadding="12dp"
+                android:fontFamily="sans-serif-light"
+                android:hint="@string/cep"
+                android:inputType="textPersonName"
+                android:lines="1"
+                android:maxLength="32"
+                android:textColor="@color/bg_orange"
+                android:textColorHint="#8F8F8F"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/Frag_Delivery_Endereco_Cidade"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginBottom="8dp"
+                android:autofillHints="true"
+                android:backgroundTint="@color/bg_orange"
+                android:drawableStart="@drawable/ic_name"
+                android:drawablePadding="12dp"
+                android:fontFamily="sans-serif-light"
+                android:hint="@string/cidade"
+                android:inputType="textPersonName"
+                android:lines="1"
+                android:maxLength="32"
+                android:textColor="@color/bg_orange"
+                android:textColorHint="#8F8F8F"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/Frag_Delivery_Endereco_UF"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginBottom="8dp"
+                android:autofillHints="true"
+                android:backgroundTint="@color/bg_orange"
+                android:drawableStart="@drawable/ic_name"
+                android:drawablePadding="12dp"
+                android:fontFamily="sans-serif-light"
+                android:hint="UF"
+                android:inputType="textPersonName"
+                android:lines="1"
+                android:maxLength="32"
+                android:textColor="@color/bg_orange"
+                android:textColorHint="#8F8F8F"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Frag_Delivery_Delivery_Price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:text="Frete: R$ 0.00"
+                android:textAlignment="center"
+                android:textColor="@color/bg_orange"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/Frag_Delivery_Total_Price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:text="Total: R$ 0.00"
+                android:textAlignment="center"
+                android:textColor="@color/bg_orange"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/Frag_Delivery_NextButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/bg_button_orange"
+                android:drawableEnd="@drawable/ic_next"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="44dp"
+                android:paddingEnd="18dp"
+                android:text="@string/pr_ximo"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</FrameLayout>

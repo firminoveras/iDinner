@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:ignore="ContentDescription">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_viewpager"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="4dp"
+            android:fontFamily="sans-serif-light"
+            android:text="Pedido Realizado com Sucesso"
+            android:textAlignment="center"
+            android:textColor="@color/bg_orange"
+            android:textSize="24sp"
+            app:drawableTopCompat="@drawable/ic_done_big"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="4dp"
+            android:background="@color/bg_orange" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="4dp"
+            android:fontFamily="sans-serif-light"
+            android:text="Tempo de Preparo: 0h:40min"
+            android:textAlignment="center"
+            android:textColor="@color/bg_orange"
+            android:textSize="22sp"
+            app:drawableStartCompat="@drawable/ic_timer"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+
+</FrameLayout>
+

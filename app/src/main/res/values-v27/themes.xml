@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.IDinner" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/bg_orange</item>
+        <item name="colorPrimaryDark">@color/bg_brawn</item>
+        <item name="colorAccent">@color/bg_red</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+    </style>
+</resources>

@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:ignore="ContentDescription">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_viewpager"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="4dp"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/informa_es_do_pedido"
+            android:textAlignment="center"
+            android:textColor="@color/bg_orange"
+            android:textSize="24sp"
+            app:drawableTopCompat="@drawable/ic_food" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="12dp"
+            android:background="@color/bg_orange" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="12dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/card_pio"
+                android:textAlignment="center"
+                android:textColor="@color/bg_orange"
+                android:textSize="18sp" />
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/Frag_Pedido_Tabs"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:background="@color/white"
+                app:tabGravity="center"
+                app:tabIndicatorColor="@color/bg_orange"
+                app:tabIndicatorHeight="4dp"
+                app:tabMode="scrollable"
+                app:tabTextAppearance="@style/Tabs">
+
+                <com.google.android.material.tabs.TabItem
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lanches" />
+
+                <com.google.android.material.tabs.TabItem
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pizzas" />
+
+                <com.google.android.material.tabs.TabItem
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bebidas" />
+
+                <com.google.android.material.tabs.TabItem
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/salgados" />
+
+                <com.google.android.material.tabs.TabItem
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/burguer" />
+
+            </com.google.android.material.tabs.TabLayout>
+
+            <ScrollView
+
+                android:id="@+id/Frag_Pedido_List_Scroll"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="106dp">
+
+                <LinearLayout
+                    android:id="@+id/Frag_Pedido_List"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="6dp" />
+            </ScrollView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_gravity="bottom"
+            android:src="@drawable/bg_gradient_white" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_bg_bobina" />
+
+        <TextView
+            android:id="@+id/Frag_Pedido_Comanda_Button"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:background="@color/bg_bobina"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:text="@string/comanda_title"
+            android:textColor="@color/comanda_text"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/Frag_Pedido_Comanda_Layout"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/bg_bobina"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/bg_bobina"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:fontFamily="monospace"
+                    android:gravity="center_vertical"
+                    android:paddingStart="12dp"
+                    android:paddingEnd="0dp"
+                    android:text="@string/cnt"
+                    android:textColor="@color/comanda_text"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:fontFamily="monospace"
+                    android:gravity="center_vertical"
+                    android:text="@string/item"
+                    android:textColor="@color/comanda_text"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:fontFamily="monospace"
+                    android:gravity="center_vertical|end"
+                    android:text="@string/unit"
+                    android:textColor="@color/comanda_text"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:fontFamily="monospace"
+                    android:gravity="center_vertical|end"
+                    android:paddingStart="0dp"
+                    android:paddingEnd="12dp"
+                    android:text="@string/total"
+                    android:textColor="@color/comanda_text"
+                    android:textSize="11sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/bg_bobina"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:fontFamily="monospace"
+                    android:gravity="center_vertical"
+                    android:paddingStart="12dp"
+                    android:paddingEnd="0dp"
+                    android:text="@string/separator"
+                    android:textColor="@color/comanda_text"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:fontFamily="monospace"
+                    android:gravity="center_vertical"
+                    android:text="@string/separator"
+                    android:textColor="@color/comanda_text"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:fontFamily="monospace"
+                    android:gravity="center_vertical|end"
+                    android:text="@string/separator"
+                    android:textColor="@color/comanda_text"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:fontFamily="monospace"
+                    android:gravity="center_vertical|end"
+                    android:paddingStart="0dp"
+                    android:paddingEnd="12dp"
+                    android:text="@string/separator"
+                    android:textColor="@color/comanda_text"
+                    android:textSize="11sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/Frag_Pedido_Comanda_List"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
+            </ScrollView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_bobina"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/Frag_User_NextButton"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="12dp"
+                android:background="@drawable/bg_button_orange"
+                android:drawableEnd="@drawable/ic_next"
+                android:fontFamily="sans-serif-black"
+                android:paddingStart="44dp"
+                android:paddingEnd="18dp"
+                android:text="@string/pr_ximo"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

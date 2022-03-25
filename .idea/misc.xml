@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/firmi/AndroidStudioProjects/iDinner/app/src/main/res/drawable/bg_background.xml" value="0.202" />
+        <entry key="..\:/Users/firmi/AndroidStudioProjects/iDinner/app/src/main/res/drawable/bg_background_main.xml" value="0.395" />
+        <entry key="..\:/Users/firmi/AndroidStudioProjects/iDinner/app/src/main/res/drawable/bg_button.xml" value="0.395" />
+        <entry key="..\:/Users/firmi/AndroidStudioProjects/iDinner/app/src/main/res/drawable/bg_button_orange.xml" value="0.384" />
+        <entry key="..\:/Users/firmi/AndroidStudioProjects/iDinner/app/src/main/res/drawable/bg_button_orange_left.xml" value="0.395" />
+        <entry key="..\:/Users/firmi/AndroidStudioProjects/iDinner/app/src/main/res/drawable/bg_button_orange_right.xml" value="0.395" />
+        <entry key="..\:/Users/firmi/AndroidStudioProjects/iDinner/app/src/main/res/drawable/bg_button_orange_top.xml" value="0.395" />
+        <entry key="..\:/Users/firmi/AndroidStudioProjects/iDinner/app/src/main/res/drawable/bg_gradient_white.xml" value="0.395" />
+        <entry key="..\:/Users/firmi/AndroidStudioProjects/iDinner/app/src/main/res/drawable/bg_list_background.xml" value="0.395" />
+        <entry key="..\:/Users/firmi/AndroidStudioProjects/iDinner/app/src/main/res/drawable/bg_list_item_background.xml" value="0.395" />
+        <entry key="..\:/Users/firmi/AndroidStudioProjects/iDinner/app/src/main/res/drawable/bg_title.xml" value="0.384" />
+        <entry key="..\:/Users/firmi/AndroidStudioProjects/iDinner/app/src/main/res/drawable/bg_viewpager.xml" value="0.384" />
+        <entry key="..\:/Users/firmi/AndroidStudioProjects/iDinner/app/src/main/res/drawable/ic_add.xml" value="0.384" />
+        <entry key="..\:/Users/firmi/AndroidStudioProjects/iDinner/app/src/main/res/drawable/ic_bg_bobina.xml" value="0.384" />
+        <entry key="..\:/Users/firmi/AndroidStudioProjects/iDinner/app/src/main/res/drawable/ic_buy.xml" value="0.395" />
+        <entry key="..\:/Users/firmi/AndroidStudioProjects/iDinner/app/src/main/res/drawable/ic_client.xml" value="0.384" />
+        <entry key="..\:/Users/firmi/AndroidStudioProjects/iDinner/app/src/main/res/drawable/ic_delivery.xml" value="0.395" />
+        <entry key="..\:/Users/firmi/AndroidStudioProjects/iDinner/app/src/main/res/drawable/ic_food.xml" value="0.331" />
+        <entry key="..\:/Users/firmi/AndroidStudioProjects/iDinner/app/src/main/res/drawable/ic_github.xml" value="0.395" />
+        <entry key="..\:/Users/firmi/AndroidStudioProjects/iDinner/app/src/main/res/drawable/ic_plus.xml" value="0.384" />
+        <entry key="..\:/Users/firmi/AndroidStudioProjects/iDinner/app/src/main/res/layout-v23/activity_init_screen.xml" value="0.3953125" />
+        <entry key="..\:/Users/firmi/AndroidStudioProjects/iDinner/app/src/main/res/layout/activity_init_screen.xml" value="0.38385416666666666" />
+        <entry key="..\:/Users/firmi/AndroidStudioProjects/iDinner/app/src/main/res/layout/activity_main.xml" value="0.36875" />
+        <entry key="..\:/Users/firmi/AndroidStudioProjects/iDinner/app/src/main/res/layout/layout_cardapio_item.xml" value="0.25641891891891894" />
+        <entry key="..\:/Users/firmi/AndroidStudioProjects/iDinner/app/src/main/res/layout/layout_comanda_item.xml" value="0.75" />
+        <entry key="..\:/Users/firmi/AndroidStudioProjects/iDinner/app/src/main/res/layout/layout_comanda_item_configs.xml" value="0.324497648567764" />
+        <entry key="..\:/Users/firmi/AndroidStudioProjects/iDinner/app/src/main/res/layout/layout_frag_confirm.xml" value="0.32038834951456313" />
+        <entry key="..\:/Users/firmi/AndroidStudioProjects/iDinner/app/src/main/res/layout/layout_frag_delivery.xml" value="0.324497648567764" />
+        <entry key="..\:/Users/firmi/AndroidStudioProjects/iDinner/app/src/main/res/layout/layout_frag_payment.xml" value="0.25" />
+        <entry key="..\:/Users/firmi/AndroidStudioProjects/iDinner/app/src/main/res/layout/layout_frag_pedido.xml" value="0.5" />
+        <entry key="..\:/Users/firmi/AndroidStudioProjects/iDinner/app/src/main/res/layout/layout_frag_user.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

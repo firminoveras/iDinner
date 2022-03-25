@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="comanda_minimized">1dp</dimen>
+    <dimen name="comanda_maximized">400dp</dimen>
+    <dimen name="dimen_frag_delivery_endereco_extended">312dp</dimen>
+    <dimen name="dimen_card_extended">156dp</dimen>
+    <dimen name="dimen_pix_extended">260dp</dimen>
+</resources>

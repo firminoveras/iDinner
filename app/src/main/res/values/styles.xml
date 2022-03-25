@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Tabs" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/bg_orange</item>
+    </style>
+
+    <style name="RadioButton" parent="Widget.Material3.CompoundButton.RadioButton">
+        <item name="colorAccent">@color/bg_orange</item>
+        <item name="colorPrimary">@color/bg_orange</item>
+    </style>
+</resources>

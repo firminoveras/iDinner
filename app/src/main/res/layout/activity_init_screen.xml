@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Splash_Main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_background"
+    android:orientation="vertical"
+    android:padding="26dp"
+    tools:context=".InitScreen"
+    tools:ignore="ContentDescription">
+
+    <ImageView
+        android:id="@+id/Splash_Logo"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_above="@+id/Splash_Logo_Text"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/ic_logo" />
+
+    <ImageView
+        android:id="@+id/Splash_Logo_Text"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_logo_name" />
+
+    <Button
+        android:id="@+id/Splash_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Splash_Logo_Text"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/bg_button"
+        android:drawableEnd="@drawable/ic_buy"
+        android:fontFamily="sans-serif-black"
+        android:paddingStart="44dp"
+        android:paddingEnd="18dp"
+        android:text="@string/fazer_pedido"
+        android:textColor="@color/bg_yellow"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Splash_Note1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Splash_Note2"
+        android:fontFamily="sans-serif-black"
+        android:text="Aplicativo Desenvolvido pelo Grupo: Firmino Veras, Pedro José, Ivanice Fragoso e Pedro Afonso."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:drawableTopCompat="@drawable/ic_github" />
+
+    <TextView
+        android:id="@+id/Splash_Note2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="sans-serif"
+        android:text="Versão 0.5.1 - Toque Aqui para Saber Mais"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+</RelativeLayout>
